@@ -446,3 +446,404 @@ body {
 .footer__author a {
   color: #ffffff;
 }
+
+@media screen and (max-width: 1200px) {
+  .container {
+    width: 900px;
+  }
+  .fixes__title {
+    font-size: 42px;
+    line-height: 48px;
+  }
+  .fixes__cards {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .fixes__card {
+    margin: 0 15px;
+    margin-bottom: 30px;
+  }
+  .fixes__subtitle {
+    font-size: 32px;
+    line-height: 38px;
+  }
+  .card {
+    padding: 30px 25px;
+  }
+  .card__image {
+    width: 255px;
+    height: 170px;
+  }
+  .card__title {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .button {
+    font-size: 32px;
+    line-height: 38px;
+    padding: 20px 45px;
+  }
+  .brands__title {
+    font-size: 42px;
+    line-height: 48px;
+  }
+  .brands__subtitle {
+    font-size: 32px;
+    line-height: 38px;
+    width: 80%;
+  }
+  .brand__image {
+    margin: 0 15px;
+    width: 350px;
+  }
+  .services__title {
+    font-size: 42px;
+    line-height: 48px;
+  }
+  .services__subtitle {
+    font-size: 32px;
+    line-height: 36px;
+  }
+  .service {
+    font-size: 32px;
+    line-height: 36px;
+  }
+  .contact__title {
+    font-size: 42px;
+    line-height: 48px;
+  }
+  .footer__main {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .footer__author {
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .container {
+    width: 700px;
+  }
+  .header__work-time {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .logo img {
+    width: 300px;
+  }
+  .phone {
+    font-size: 32px;
+    line-height: 36px;
+  }
+  .fixes__title {
+    font-size: 36px;
+    line-height: 42px;
+  }
+  .fixes__subtitle {
+    font-size: 28px;
+    line-height: 32px;
+  }
+  .button {
+    font-size: 28px;
+    line-height: 32px;
+    padding: 20px 45px;
+  }
+  .brands__title {
+    font-size: 36px;
+    line-height: 42px;
+  }
+  .brands__subtitle {
+    font-size: 28px;
+    line-height: 32px;
+    width: 80%;
+  }
+  .brand__image {
+    width: 300px;
+  }
+  .services__title {
+    font-size: 36px;
+    line-height: 42px;
+  }
+  .services__subtitle {
+    font-size: 28px;
+    line-height: 32px;
+  }
+  .service {
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .contact__title {
+    font-size: 36px;
+    line-height: 42px;
+  }
+  .footer__wrapper {
+    padding: 30px 0;
+  }
+  .footer__main {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .footer__author {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 500px;
+  }
+  .header__work-time {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .logo img {
+    width: 240px;
+  }
+  .phone {
+    font-size: 24px;
+    line-height: 38px;
+  }
+  .fixes__title {
+    font-size: 32px;
+    line-height: 36px;
+    margin-bottom: 50px;
+  }
+  .fixes__subtitle {
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 50px;
+  }
+  .fixes__cards {
+    margin-bottom: 50px;
+  }
+  .fixes__wrapper {
+    padding: 60px 0 100px;
+  }
+  .card {
+    padding: 20px 20px;
+  }
+  .card__image {
+    width: 180px;
+    height: 120px;
+  }
+  .card__title {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .button {
+    font-size: 24px;
+    line-height: 28px;
+    padding: 15px 35px;
+  }
+  .brands__wrapper {
+    padding: 100px 0;
+  }
+  .brands__title {
+    font-size: 32px;
+    line-height: 36px;
+    margin-bottom: 50px;
+  }
+  .brands__subtitle {
+    font-size: 24px;
+    line-height: 28px;
+    width: 100%;
+  }
+  .brands__list {
+    margin-bottom: 20px;
+  }
+  .brand__image {
+    width: 220px;
+  }
+  .services__wrapper {
+    padding: 100px 0;
+  }
+  .services__title {
+    font-size: 32px;
+    line-height: 36px;
+    margin-bottom: 50px;
+  }
+  .services__subtitle {
+    font-size: 24px;
+    line-height: 28px;
+    width: 100%;
+  }
+  .services__list {
+    margin-bottom: 50px;
+  }
+  .service {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .contact__wrapper {
+    padding: 100px 0;
+  }
+  .contact__title {
+    font-size: 32px;
+    line-height: 36px;
+    margin-bottom: 50px;
+  }
+  .contact__link {
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+  }
+  .contact__link img {
+    width: 35px;
+    height: 35px;
+  }
+  .footer__wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .footer__main {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .container {
+    width: 400px;
+  }
+  .header__work-time {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .logo img {
+    width: 200px;
+  }
+  .phone {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .fixes__title {
+    font-size: 28px;
+    line-height: 32px;
+  }
+  .fixes__subtitle {
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .card {
+    padding: 25px 25px;
+  }
+  .card__image {
+    width: 225px;
+    height: 150px;
+  }
+  .card__title {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .brands__title {
+    font-size: 28px;
+    line-height: 32px;
+  }
+  .brands__subtitle {
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .brands__brand {
+    margin-bottom: 5px;
+  }
+  .services__title {
+    font-size: 28px;
+    line-height: 32px;
+  }
+  .services__subtitle {
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .service {
+    line-height: 26px;
+  }
+  .service__price {
+    -ms-flex-preferred-size: 30%;
+        flex-basis: 30%;
+    text-align: right;
+  }
+  .contact__title {
+    font-size: 28px;
+    line-height: 32px;
+  }
+  .contact__phone, .contact__address {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .contact__info {
+    margin-bottom: 75px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    width: 300px;
+  }
+  .header__work-time {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .logo img {
+    width: 150px;
+  }
+  .phone {
+    font-size: 18px;
+    line-height: 20px;
+  }
+  .fixes__title {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .fixes__subtitle {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .card__image {
+    width: 225px;
+    height: 150px;
+  }
+  .card__title {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .brands__title {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .brands__subtitle {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .services__title {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .services__subtitle {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .service__price {
+    -ms-flex-preferred-size: 65%;
+        flex-basis: 65%;
+  }
+  .contact__title {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .contact__phone, .contact__address {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .contact__info {
+    margin-bottom: 75px;
+  }
+}
