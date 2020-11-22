@@ -9,6 +9,16 @@
     <title>Сервисный центр на Борковской</title>
 </head>
 <body>
+    <div class="modal">
+        <form action="#" class="pop-up modal__pop-up">
+            <input type="text" class="pop-up__name" placeholder="Ваше имя">
+            <input type="tel" class="pop-up__phone" placeholder="Ваш телефон" pattern="\+{0,1}[0-9]{11}">
+            <button class="pop-up__button">Отправить</button>
+            <div class="warning">
+                Нажимая на кнопку Отправить вы соглашаетесь с <a target="_blank" href="privacy.html">Политикой конфиденциальности</a>
+            </div>
+        </form>
+    </div>
     <div class="header">
         <div class="container">
             <div class="header__wrapper">
@@ -144,10 +154,10 @@
                     <div class="contact__phone">+7 927 792 99 09</div>
                     <div class="contact__address">Тольятти, Борковская улица, 73</div>
                     <div class="contact__links">
-                        <a href="#" class="contact__link contact__link_viber">
+                        <a href="viber://add?number=79277929909" class="contact__link contact__link_viber">
                             <img src="../images/viber.svg" alt="viber">
                         </a>
-                        <a href="#" class="contact__link contact__link_whatsapp">
+                        <a href="https://wa.me/79277929909" class="contact__link contact__link_whatsapp">
                             <img src="../images/whatsapp.svg" alt="whatsapp">
                         </a>
                     </div>
@@ -168,5 +178,8 @@
             </div>
         </div>
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/cleave.js/1.6.0/cleave.min.js"></script>
+    <script src="../assets/js/cleave-phone.ru.js"></script>
+    <script src="../assets/js/script.js"></script>
 </body>
 </html>
