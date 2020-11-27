@@ -5,15 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>Сервисный центр на Борковской</title>
 </head>
 <body>
     <div class="modal">
-        <form action="#" class="pop-up modal__pop-up">
-            <input type="text" class="pop-up__name" placeholder="Ваше имя">
-            <input type="tel" class="pop-up__phone" placeholder="Ваш телефон" pattern="\+{0,1}[0-9]{11}">
-            <button class="pop-up__button">Отправить</button>
+        <form action="sendmailer.php" class="pop-up modal__pop-up">
+            <input name="name" type="text" class="pop-up__name" placeholder="Ваше имя" required>
+            <input name="phone" type="tel" class="pop-up__phone" placeholder="Ваш телефон" pattern="\+{0,1}[0-9]{1} [0-9]{3} [0-9]{3} [0-9]{2} [0-9]{2}" required>
+            <button type="submit" class="pop-up__button">Отправить</button>
             <div class="warning">
                 Нажимая на кнопку Отправить вы соглашаетесь с <a target="_blank" href="privacy.html">Политикой конфиденциальности</a>
             </div>
@@ -154,10 +154,10 @@
                     <div class="contact__phone">+7 927 792 99 09</div>
                     <div class="contact__address">Тольятти, Борковская улица, 73</div>
                     <div class="contact__links">
-                        <a href="viber://add?number=79277929909" class="contact__link contact__link_viber">
+                        <a href="viber://add?number=79277929909" class="contact__link contact__link_viber" target="_blank">
                             <img src="../images/viber.svg" alt="viber">
                         </a>
-                        <a href="https://wa.me/79277929909" class="contact__link contact__link_whatsapp">
+                        <a href="https://wa.me/79277929909" class="contact__link contact__link_whatsapp" target="_blank">
                             <img src="../images/whatsapp.svg" alt="whatsapp">
                         </a>
                     </div>
