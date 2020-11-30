@@ -98,6 +98,8 @@ body
     border: none
     cursor: pointer
     outline: none
+    &:hover
+        background-color: #d8ad00
 
 .brands
     background-color: #f5f5f5
@@ -312,7 +314,7 @@ body
         &::placeholder
             font-size: 36px
             line-height: 42px
-            color: #333333
+            color: rgba(#333333, 0.5);
     &__name
         margin-bottom: 30px
     &__phone
@@ -329,6 +331,11 @@ body
         cursor: pointer
         outline: none
         margin-bottom: 50px
+        &:disabled
+            opacity: 0.5
+            cursor: auto
+        &:hover
+            background-color: rgba(#333, 0.85);
 
 .pop-up.sending::after
     opacity: 1
@@ -340,6 +347,14 @@ body
     line-height: 20px
     a 
         color: #333333
+
+.privacy
+    background-color: #f5f5f5
+    padding: 45px 0
+    font-size: 16px
+    line-height: 24px
+    h2 
+        margin-bottom: 10px
 
 
 @media screen and ( max-width: 1200px )

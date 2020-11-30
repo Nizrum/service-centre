@@ -2,6 +2,12 @@ let modal = document.querySelector('.modal');
 let buttons = document.querySelectorAll('.button');
 let cards = document.querySelectorAll('.card');
 let body = document.querySelector('body');
+let sendButton = document.querySelector('.pop-up__button');
+let form = document.querySelector('.pop-up');
+
+function formSubmit() {
+    sendButton.setAttribute("disabled", "true");
+}
 
 buttons.forEach(function (button) {
     button.addEventListener('click', function () {

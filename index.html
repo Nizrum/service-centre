@@ -1,29 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="ремонт, мотор, катер, моторная лодка, лодочный мотор, 
+    снегоход, квадроцикл, гидроцикл, мотоцикл, тольятти">
+    <meta name="description" content="Ремонт катеров, снегоходов, 
+    мотоциклов, квадроциклов, гидроциклов в Тольятти">
+    <script type="text/javascript" nonce="15a6f8472c244a149d13da294fb"
+        src="//local.adguard.org?ts=1606314967814&amp;type=content-script&amp;dmn=realfavicongenerator.net&amp;app=com.google.Chrome&amp;css=1&amp;js=1&amp;gcss=1&amp;rel=1&amp;rji=1&amp;sbe=0"></script>
+    <script type="text/javascript" nonce="15a6f8472c244a149d13da294fb"
+        src="//local.adguard.org?ts=1606314967814&amp;name=AdGuard%20Extra&amp;type=user-script"></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon_package_v0.16/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon_package_v0.16/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon_package_v0.16/favicon-16x16.png">
+    <link rel="manifest" href="/favicon_package_v0.16/site.webmanifest">
+    <link rel="mask-icon" href="/favicon_package_v0.16/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Сервисный центр на Борковской</title>
+    <title>Ремонт моторной техники в Тольятти</title>
 </head>
 <body>
     <div class="modal">
-        <form action="sendmailer.php" class="pop-up modal__pop-up">
+        <form action="mail.php" class="pop-up modal__pop-up" method="POST" onsubmit="formSubmit();">
             <input name="name" type="text" class="pop-up__name" placeholder="Ваше имя" required>
-            <input name="phone" type="tel" class="pop-up__phone" placeholder="Ваш телефон" pattern="\+{0,1}[0-9]{1} [0-9]{3} [0-9]{3} [0-9]{2} [0-9]{2}" required>
+            <input name="phone" type="tel" class="pop-up__phone" placeholder="8 800 999 99 99" pattern="\+{0,1}[0-9]{1} [0-9]{3} [0-9]{3} [0-9]{2} [0-9]{2}" required>
             <button type="submit" class="pop-up__button">Отправить</button>
             <div class="warning">
                 Нажимая на кнопку Отправить вы соглашаетесь с <a target="_blank" href="privacy.html">Политикой конфиденциальности</a>
             </div>
         </form>
     </div>
-    <div class="header">
+    <header class="header">
         <div class="container">
             <div class="header__wrapper">
                 <a href="index.html" class="header__logo logo">
-                    <img src="../images/logo.png" alt="logo">
+                    <img src="images/logo.png" alt="Логотип">
                 </a>
                 <div class="header__info">
                     <a href="tel:+79277929909" class="header__phone phone">+7 927 792 99 09</a>
@@ -31,34 +46,34 @@
                 </div>
             </div>
         </div>
-    </div>
+    </header>
     <div class="fixes">
         <div class="container">
             <div class="fixes__wrapper">
                 <h1 class="fixes__title">Ремонтируем и обслуживаем</h1>
                 <div class="fixes__cards">
                     <div class="fixes__card card">
-                        <img src="../images/motor.jpg" alt="" class="card__image">
+                        <img src="images/motor.JPEG" alt="Лодочный мотор" class="card__image">
                         <h4 class="card__title">Лодочные моторы</h4>
                     </div>
                     <div class="fixes__card card">
-                        <img src="../images/snowmobile.jpg" alt="" class="card__image">
+                        <img src="images/snowmobile.JPEG" alt="Снегоход" class="card__image">
                         <h4 class="card__title">Снегоходы</h4>
                     </div>
                     <div class="fixes__card card">
-                        <img src="../images/quadrocycle.jpg" alt="" class="card__image">
+                        <img src="images/quadrocycle.jpg" alt="Квадроцикл" class="card__image">
                         <h4 class="card__title">Квадроциклы</h4>
                     </div>
                     <div class="fixes__card card">
-                        <img src="../images/hydrocycle.jpg" alt="" class="card__image">
+                        <img src="images/hydrocycle.JPEG" alt="Гидроцикл" class="card__image">
                         <h4 class="card__title">Гидроциклы</h4>
                     </div>
                     <div class="fixes__card card">
-                        <img src="../images/boat.jpg" alt="" class="card__image">
+                        <img src="images/boat.jpg" alt="Катер" class="card__image">
                         <h4 class="card__title">Катера</h4>
                     </div>
                     <div class="fixes__card card">
-                        <img src="../images/motorcycle.jpg" alt="" class="card__image">
+                        <img src="images/motorcycle.jpg" alt="Мотоцикл" class="card__image">
                         <h4 class="card__title">Мотоциклы</h4>
                     </div>
                 </div>
@@ -70,31 +85,31 @@
     <div class="brands">
         <div class="container">
             <div class="brands__wrapper">
-                <h2 class="brands__title">Ремонтируем технику:</h2>
+                <h2 class="brands__title">Обслуживаем бренды</h2>
                 <div class="brands__list">
                     <div class="brands__brand brand">
-                        <img src="../images/yamaha.png" alt="" class="brand__image">
+                        <img src="images/yamaha.png" alt="Логотип Yamaha" class="brand__image">
                     </div>
                     <div class="brands__brand brand">
-                        <img src="../images/brp.png" alt="" class="brand__image">
+                        <img src="images/brp.png" alt="Логотип BRP" class="brand__image">
                     </div>
                     <div class="brands__brand brand">
-                        <img src="../images/suzuki.png" alt="" class="brand__image">
+                        <img src="images/suzuki.png" alt="Логотип Suzuki" class="brand__image">
                     </div>
                     <div class="brands__brand brand">
-                        <img src="../images/mercury.png" alt="" class="brand__image">
+                        <img src="images/mercury.png" alt="Логотип Mercury" class="brand__image">
                     </div>
                     <div class="brands__brand brand">
-                        <img src="../images/lynx.png" alt="" class="brand__image">
+                        <img src="images/lynx.png" alt="Логотип LYNX" class="brand__image">
                     </div>
                     <div class="brands__brand brand">
-                        <img src="../images/tohatsu.png" alt="" class="brand__image">
+                        <img src="images/tohatsu.png" alt="Логотип Tohatsu" class="brand__image">
                     </div>
                     <div class="brands__brand brand">
-                        <img src="../images/polaris.png" alt="" class="brand__image">
+                        <img src="images/polaris.png" alt="Логотип Polaris" class="brand__image">
                     </div>
                     <div class="brands__brand brand">
-                        <img src="../images/honda.png" alt="" class="brand__image">
+                        <img src="images/honda.png" alt="Логотип Honda" class="brand__image">
                     </div>
                 </div>
                 <div class="brands__subtitle">Технику тайваньских и китайских брендов не обслуживаем</div>
@@ -155,10 +170,10 @@
                     <div class="contact__address">Тольятти, Борковская улица, 73</div>
                     <div class="contact__links">
                         <a href="viber://add?number=79277929909" class="contact__link contact__link_viber" target="_blank">
-                            <img src="../images/viber.svg" alt="viber">
+                            <img src="images/viber.svg" alt="Логотип Viber">
                         </a>
                         <a href="https://wa.me/79277929909" class="contact__link contact__link_whatsapp" target="_blank">
-                            <img src="../images/whatsapp.svg" alt="whatsapp">
+                            <img src="images/whatsapp.svg" alt="Логотип Whatsapp">
                         </a>
                     </div>
                 </div>
@@ -166,20 +181,20 @@
             </div>
         </div>
     </div>
-    <div class="footer">
+    <footer class="footer">
         <div class="container">
             <div class="footer__wrapper">
                 <div class="footer__main">
                     <strong>Сервисный центр</strong> | <a href="privacy.html" target="_blank">Политика конфиденциальности</a>
                 </div>
                 <div class="footer__author">
-                    Сайт сделал <a href="https://nizrum.ru" target="_blank">Семён Мурзин</a>
+                    Сайт сделал <a href="https://nizrum.ru" target="_blank">Nizrum</a>
                 </div>
             </div>
         </div>
-    </div>
+    </footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/cleave.js/1.6.0/cleave.min.js"></script>
-    <script src="../assets/js/cleave-phone.ru.js"></script>
-    <script src="../assets/js/script.js"></script>
+    <script src="assets/js/cleave-phone.ru.js"></script>
+    <script src="assets/js/script.js"></script>
 </body>
 </html>
